@@ -18,8 +18,9 @@ Os stubs foram gerados utilizando a ferramenta [`xgen`](https://github.com/xuri/
 
 ```bash
 go install github.com/xuri/xgen/cmd/xgen@latest
+xgen -i . -l Go -p v4_01_00 -o ./v4_01_00
 
-xgen -i tissV4_01_00.xsd -l go -p v4_01_00 -o ./v4_01_00
+
 ```
 
 - Linguagem: Go
