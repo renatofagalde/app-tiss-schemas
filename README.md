@@ -74,3 +74,13 @@ func main() {
 ## 📝 Licença
 
 Este projeto apenas agrupa arquivos públicos da ANS e é disponibilizado **sem modificações** para fins de integração, testes e uso em aplicações Go.
+
+
+# NEW
+
+```
+./generate_versions.sh                # Gera versão mais recente (4.01.00)
+./generate_versions.sh 4_01_00        # Gera TISS v4.01.00 específica
+./generate_versions.sh --list         # Lista todas as versões disponíveis
+./generate_versions.sh --all          # Gera TODAS as versões
+```
